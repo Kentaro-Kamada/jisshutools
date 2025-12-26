@@ -1,4 +1,4 @@
-# jissutools
+# jisshutools
 
 
 <!-- README.md is generated from README.qmd. Please edit that file -->
@@ -81,3 +81,21 @@ result_lm$save('hoge_lm.xlsx')
 result_glm$save('hoge_glm.xlsx')
 result_multinom$save('hoge_multinom.xlsx')
 ```
+
+## Output Examples
+
+- クロス表
+
+![](man/figures/jisshu_cross.png)
+
+- 線形回帰
+
+![](man/figures/jisshu_reg_lm.png)
+
+- 2項ロジスティック回帰
+
+![](man/figures/jisshu_reg_glm.png)
+
+- 多項ロジスティック回帰
+
+![](man/figures/jisshu_reg_multinom.png)
